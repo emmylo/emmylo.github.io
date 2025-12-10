@@ -1,0 +1,19 @@
+---
+title: Projects
+links:
+    - href: projects/Hammer/index.qmd
+      text: Machinist's Hammer
+    - href: projects/E80-Robot/index.qmd
+      text: Automated Surface Vehicle 
+      
+---
+
+# 2025
+[Researching Compositionally-Complex Lead-Free Bronze Alloys for Bushings and Bearings](Bassman-Research/)
+
+[Designing an Autonomous Surface Vehicle and Wind-Based Navigation System](E80-Robot/)
+
+# 2024
+[Fabricating License Plate Frames for a Local Automotive Business](License-Plate/)
+
+[Manufacturing a Machinist's Hammer](Hammer/)

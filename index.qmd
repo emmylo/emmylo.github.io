@@ -1,0 +1,37 @@
+<div style="text-align: center; margin-top: 30px; margin-bottom: 20px;">
+  <img src="emmyheadshot.jpg" 
+       alt="Photo of Emmy" 
+       style="
+         width: 180px;
+         height: 180px;
+         border-radius: 50%;
+         object-fit: cover;
+         border: 4px solid #ddd;
+       ">
+</div>
+
+---
+title: "Emmy Lo"
+subtitle: "Engineering Portfolio"
+format: html
+
+---
+
+# Hi, I’m Emmy
+
+I’m a junior **engineering major at Harvey Mudd College** with interests spanning **mechanical, materials, electrical, and systems engineering**. I’m especially interested in roles that combine **hands-on testing, data-driven design, and sustainable engineering solutions**.
+
+Although I’m still exploring which discipline I want to specialize in, I know that I want my work to **positively impact the natural environment** and contribute to long-term sustainability.
+
+This portfolio highlights a selection of my academic, research, and design projects, including:
+
+- Autonomous robotic systems  
+- Machine shop manufacturing  
+- 3D printing & CAD   
+- Materials research on compositionally-complex alloys  
+- Experimental instrumentation & data analysis  
+
+<div style="margin-top: 15px; margin-bottom: 20px;">
+<a href="projects/" class="btn btn-primary btn-lg">View My Projects</a>
+</div>
+

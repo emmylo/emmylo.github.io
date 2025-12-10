@@ -1,0 +1,25 @@
+project:
+  type: website
+
+website:
+  title: "Emmy's Portfolio"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - href: projects/index.qmd
+        text: Projects
+      - text: GitHub
+        href: https://github.com/emmylo
+      - text: LinkedIn
+        href: https://www.linkedin.com/in/emmylo/
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+
+

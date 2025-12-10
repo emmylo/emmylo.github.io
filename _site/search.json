@@ -1,0 +1,107 @@
+[
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Emmy Lo",
+    "section": "",
+    "text": "Hi, I’m Emmy\nI’m a junior engineering major at Harvey Mudd College with interests spanning mechanical, materials, electrical, and systems engineering. I’m especially interested in roles that combine hands-on testing, data-driven design, and sustainable engineering solutions.\nAlthough I’m still exploring which discipline I want to specialize in, I know that I want my work to positively impact the natural environment and contribute to long-term sustainability.\nThis portfolio highlights a selection of my academic, research, and design projects, including:\n\nAutonomous robotic systems\n\nMachine shop manufacturing\n\n3D printing & CAD\n\nMaterials research on compositionally-complex alloys\n\nExperimental instrumentation & data analysis\n\n\nView My Projects"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "Hi! I’m Emmy, a junior engineering major at Harvey Mudd College in Claremont, California. I have broad interests across mechanical, materials, systems, and electrical engineering, and I’m especially motivated by projects that support sustainability and environmental impact. I’m interested in roles that combine hands-on testing, data-driven design, and sustainable engineering solutions.\nMy strengths include experimental design, CAD and prototyping, circuit design, technical communication, and data-driven analysis. I enjoy working on interdisciplinary, hands-on engineering problems. While I’m still exploring my exact specialization, I’m currently seeking internship and research opportunities where I can contribute to meaningful, real-world engineering work.\nOutside of academics, I enjoy cooking, baking, sewing, playing sports, fishing, and running.\nFeel free to explore my projects or reach out if you’d like to connect!\n\nContact\nEmail: emlo@hmc.edu\nLinkedIn: [https://www.linkedin.com/in/emmylo/][https://www.linkedin.com/in/emmylo/]"
+  },
+  {
+    "objectID": "projects/index.html",
+    "href": "projects/index.html",
+    "title": "Projects",
+    "section": "",
+    "text": "2025\nResearching Compositionally-Complex Lead-Free Bronze Alloys for Bushings and Bearings\nDesigning an Autonomous Surface Vehicle and Wind-Based Navigation System\n\n\n2024\nFabricating License Plate Frames for a Local Automotive Business\nManufacturing a Machinist’s Hammer"
+  },
+  {
+    "objectID": "projects/E80-Robot/index.html",
+    "href": "projects/E80-Robot/index.html",
+    "title": "Designing an Autonomous Surface Vehicle and Wind-Based Navigation System",
+    "section": "",
+    "text": "Our ASV in the water at Dana Point\n\n\nE80, Experimental Engineering, is a required course for all sophomore engineering majors. Students learn basic instrumentation and measurement techniques, data analysis, technical writing and presentation skills, and how to use experimental results for engineering design purposes.\nStudents are placed into groups of four or five, and these groups work together for the duration of the class. During the first half of the semester, students complete partner and full-group lab assignments to equip them with the skills required for the final project: building an autonomous surface or underwater vehicle from scratch and deploying it at Dana Point Harbor.\nThe final project had the following requirements:\n\nThe robot must be autonomously deployed to take measurements without human intervention.\nThe deployment must last at least one minute, and the robot must actively control its position during this minute.\n\nThis deployment must end at a place where the robot can be recovered.\n\nThe sensor package must be deployed on or from your AUV, either in the water or in the air.\nThe sensor package must use at least three sensors with at least two unique electrical interfaces.\nThe cost of sensors and additional supplies must not exceed $50.\n\nMy group, Team 21, designed an autonomous surface vehicle (ASV) that used information about wind direction to navigate around open waters. We also chose to measure wind speed and motor temperature.\nOur navigation system demonstrated potential real-world applications for improving surface vessel efficiency. For instance, an autonomous sailboat could use GPS and motors during low-wind conditions and switch to wind-based navigation when winds are strong. Similarly, the system could redirect navigation strategies when a robot’s motors begin to overheat. The technical report I wrote at the end of the course discusses more about potential applications, our design process, testing procedures, data collection methods, and conclusions.\nMy technical report is linked here.\nBuilding the robot was a collaborative effort, and my primary contributions focused on sensor circuit design and coding the wind-based navigation system. My design decisions were informed by sensor datasheets, skills developed during earlier lab assignments, and the capabilities of our microcontroller.\nThe voltage outputs from the temperature and wind speed sensors were logged for post-deployment analysis, while the wind direction signal required real-time processing for navigation. To achieve this, I used a rotary potentiometer and a voltage divider circuit to convert the wind direction voltage into an angular measurement. I then implemented a proportional control feedback loop in C++ that compared the desired heading to the ASV’s current orientation and determined the appropriate motor commands. Although I had no prior experience with C++, I learned the fundamentals of the language and the existing E80 codebase to successfully integrate my control algorithm.\nFollowing our successful deployment at Dana Point Harbor, we analyzed our data and created a project poster, which we presented to professors and peers at E80 Presentation Day. Our team was voted one of the top 5 posters out of 24 teams, and we were awarded the J.R. Phillips Award for outstanding experimental technique and engineering judgment.\n\n\n\n\n\n\n\n\n\nDrawing\n\n\n\n\n\n\n\nFinal design"
+  },
+  {
+    "objectID": "projects/E80-Robot/index.html#section",
+    "href": "projects/E80-Robot/index.html#section",
+    "title": "Designing an Autonomous Surface Vehicle and Wind-Based Navigation System",
+    "section": "",
+    "text": "Our ASV in the water at Dana Point\n\n\nE80, Experimental Engineering, is a required course for all sophomore engineering majors. Students learn basic instrumentation and measurement techniques, data analysis, technical writing and presentation skills, and how to use experimental results for engineering design purposes.\nStudents are placed into groups of four or five, and these groups work together for the duration of the class. During the first half of the semester, students complete partner and full-group lab assignments to equip them with the skills required for the final project: building an autonomous surface or underwater vehicle from scratch and deploying it at Dana Point Harbor.\nThe final project had the following requirements:\n\nThe robot must be autonomously deployed to take measurements without human intervention.\nThe deployment must last at least one minute, and the robot must actively control its position during this minute.\n\nThis deployment must end at a place where the robot can be recovered.\n\nThe sensor package must be deployed on or from your AUV, either in the water or in the air.\nThe sensor package must use at least three sensors with at least two unique electrical interfaces.\nThe cost of sensors and additional supplies must not exceed $50.\n\nMy group, Team 21, designed an autonomous surface vehicle (ASV) that used information about wind direction to navigate around open waters. We also chose to measure wind speed and motor temperature.\nOur navigation system demonstrated potential real-world applications for improving surface vessel efficiency. For instance, an autonomous sailboat could use GPS and motors during low-wind conditions and switch to wind-based navigation when winds are strong. Similarly, the system could redirect navigation strategies when a robot’s motors begin to overheat. The technical report I wrote at the end of the course discusses more about potential applications, our design process, testing procedures, data collection methods, and conclusions.\nMy technical report is linked here.\nBuilding the robot was a collaborative effort, and my primary contributions focused on sensor circuit design and coding the wind-based navigation system. My design decisions were informed by sensor datasheets, skills developed during earlier lab assignments, and the capabilities of our microcontroller.\nThe voltage outputs from the temperature and wind speed sensors were logged for post-deployment analysis, while the wind direction signal required real-time processing for navigation. To achieve this, I used a rotary potentiometer and a voltage divider circuit to convert the wind direction voltage into an angular measurement. I then implemented a proportional control feedback loop in C++ that compared the desired heading to the ASV’s current orientation and determined the appropriate motor commands. Although I had no prior experience with C++, I learned the fundamentals of the language and the existing E80 codebase to successfully integrate my control algorithm.\nFollowing our successful deployment at Dana Point Harbor, we analyzed our data and created a project poster, which we presented to professors and peers at E80 Presentation Day. Our team was voted one of the top 5 posters out of 24 teams, and we were awarded the J.R. Phillips Award for outstanding experimental technique and engineering judgment.\n\n\n\n\n\n\n\n\n\nDrawing\n\n\n\n\n\n\n\nFinal design"
+  },
+  {
+    "objectID": "projects/License-Plate/index.html",
+    "href": "projects/License-Plate/index.html",
+    "title": "Fabricating License Plate Frames for a Local Automotive Business",
+    "section": "",
+    "text": "Auto Innovations is a locally owned and operated automotive repair shop specializing in tires, wheels, suspension, and alignments. They have served the San Francisco Bay Area for over 30 years and, during that time, have distributed hundreds of free license plate frames branded with their business name and phone number. Due to rising costs and increased order minimums from their original supplier, Auto Innovations became interested in 3D printing their frames in-house.\n\n\n\nThe license plate frame used for reference\n\n\nI used SOLIDWORKS to design and model the license plate frame. For the prototyping stages, I selected PLA filament due to its low cost and ease of use. Through multiple design iterations, I optimized the frame thickness, fillet profiles, and font parameters. I also incorporated rear clips to securely hold the license plate in place.\n\n\n\nA prototype printed with PLA\n\n\nOnce Auto Innovations approved the final design, I transitioned to printing with PETG and PETG-CF. These materials were selected for their durability and resistance to outdoor environmental conditions, making them ideal for this application. Layer adhesion was the primary challenge in the later prototypes, but I achieved consistent success after fine-tuning extrusion temperature, cooling, and other print parameters."
+  },
+  {
+    "objectID": "projects/Bassman-Research/index.html",
+    "href": "projects/Bassman-Research/index.html",
+    "title": "Designing an Autonomous Surface Vehicle and Wind-Based Navigation System",
+    "section": "",
+    "text": "This past summer, I had the privilege of traveling to Australia with Harvey Mudd Professor Lori Bassman’s research group (the Keets) to conduct research on lead-free alloys for bushings and bearings. We collaborated with scientists at the University of New South Wales in Sydney.\nI worked on the experimental side of the project with two Mudd classmates. The three of us, or the “Experimental Keets,” had a variety of responsibilities. Our main role was to conduct experiments that would help inform decisions on the industrial side of the project. Over our ten weeks of research, we analyzed dozens of samples. We charge prepped, alloyed components in an arc melter, cast our samples into uniform shapes, did heat treatments, ground and polished surfaces, used various forms of microscopy for imaging, and performed hardness testing.\n\n\n\n\n\n\n\n\n\nPolishing samples with another Keet\n\n\n\n\n\n\n\nMelting a sample with the mini arc-melter\n\n\n\n\n\nI received hands-on training on the scanning electron microscope (SEM) and energy dispersive spectroscopy (EDS) in the UNSW Electron Microscopy Unit. In addition to learning how to operate these advanced characterization tools, I developed strong communication skills by clearly presenting my findings to team members who were not SEM-trained. I compiled weekly technical reports and regularly presented updates during team meetings.\nManaging a large volume of samples required strong organizational and documentation practices. Our team maintained a detailed tracking spreadsheet to monitor the status of each sample throughout processing, along with comprehensive lab notebooks to record procedures, observations, and results.\nIn March, we will present our work at a student poster session at the TMS 2026 Annual Meeting & Exhibition in San Diego, California!\n\nBeyond the technical experience, this was an incredibly fun and enriching summer. Outside the lab, the Keets explored Sydney and its surroundings. We hiked in the Blue Mountains, saw Australian wildlife at Featherdale Wildlife Park, relaxed at Sydney’s famous beaches, and enjoyed incredible food. I am deeply grateful to the Engman Fellowship for Applied Mechanics and the NSF grant (#2106617) that made this opportunity possible.\n\n\n\n\n\n\n\n\n\nRainbow lorikeets, the birds our group is named after\n\n\n\n\n\n\n\nHiking in the Blue Mountains\n\n\n\n\n\n\n\nAn installment at Vivid Sydney, an annual multi-week festival"
+  },
+  {
+    "objectID": "projects/Bassman-Research/index.html#section",
+    "href": "projects/Bassman-Research/index.html#section",
+    "title": "Designing an Autonomous Surface Vehicle and Wind-Based Navigation System",
+    "section": "",
+    "text": "This past summer, I had the privilege of traveling to Australia with Harvey Mudd Professor Lori Bassman’s research group (the Keets) to conduct research on lead-free alloys for bushings and bearings. We collaborated with scientists at the University of New South Wales in Sydney.\nI worked on the experimental side of the project with two Mudd classmates. The three of us, or the “Experimental Keets,” had a variety of responsibilities. Our main role was to conduct experiments that would help inform decisions on the industrial side of the project. Over our ten weeks of research, we analyzed dozens of samples. We charge prepped, alloyed components in an arc melter, cast our samples into uniform shapes, did heat treatments, ground and polished surfaces, used various forms of microscopy for imaging, and performed hardness testing.\n\n\n\n\n\n\n\n\n\nPolishing samples with another Keet\n\n\n\n\n\n\n\nMelting a sample with the mini arc-melter\n\n\n\n\n\nI received hands-on training on the scanning electron microscope (SEM) and energy dispersive spectroscopy (EDS) in the UNSW Electron Microscopy Unit. In addition to learning how to operate these advanced characterization tools, I developed strong communication skills by clearly presenting my findings to team members who were not SEM-trained. I compiled weekly technical reports and regularly presented updates during team meetings.\nManaging a large volume of samples required strong organizational and documentation practices. Our team maintained a detailed tracking spreadsheet to monitor the status of each sample throughout processing, along with comprehensive lab notebooks to record procedures, observations, and results.\nIn March, we will present our work at a student poster session at the TMS 2026 Annual Meeting & Exhibition in San Diego, California!\n\nBeyond the technical experience, this was an incredibly fun and enriching summer. Outside the lab, the Keets explored Sydney and its surroundings. We hiked in the Blue Mountains, saw Australian wildlife at Featherdale Wildlife Park, relaxed at Sydney’s famous beaches, and enjoyed incredible food. I am deeply grateful to the Engman Fellowship for Applied Mechanics and the NSF grant (#2106617) that made this opportunity possible.\n\n\n\n\n\n\n\n\n\nRainbow lorikeets, the birds our group is named after\n\n\n\n\n\n\n\nHiking in the Blue Mountains\n\n\n\n\n\n\n\nAn installment at Vivid Sydney, an annual multi-week festival"
+  },
+  {
+    "objectID": "projects/Hammer/index.html",
+    "href": "projects/Hammer/index.html",
+    "title": "Manufacturing a Machinist’s Hammer",
+    "section": "",
+    "text": "The completed hammer!\n\n\nEvery Harvey Mudd engineer machines a hammer in E4: Intro to Engineering Design and Manufacturing. Students are given wood and metal stock, a process router, and a mechanical drawing. They must manufacture a machinist’s hammer to the given specifications. The work is completed in the HMC Machine Shop and HMC Makerspace, which are both student-run facilities.\nStudents learn how to use the laser cutter, bandsaws, lathes, mills, and router table when fabricating their hammer head and handle. When manufacturing the hard face of the hammer, students perform heat treatments and a Rockwell hardness test.\nI am extremely proud of the finished product. Every dimension of my hammer was in spec, and points were only deducted in the quality of manufacturing category for small scratches and dents.\nNow, I support current E4 students as a machine shop proctor. In this role, I teach students how to safely and effectively use shop machines and tools. In addition to mentoring E4 students, I also assist shop users working on both course-related and personal projects."
+  },
+  {
+    "objectID": "projects/Hammer/index.html#section",
+    "href": "projects/Hammer/index.html#section",
+    "title": "Manufacturing a Machinist’s Hammer",
+    "section": "",
+    "text": "The completed hammer!\n\n\nEvery Harvey Mudd engineer machines a hammer in E4: Intro to Engineering Design and Manufacturing. Students are given wood and metal stock, a process router, and a mechanical drawing. They must manufacture a machinist’s hammer to the given specifications. The work is completed in the HMC Machine Shop and HMC Makerspace, which are both student-run facilities.\nStudents learn how to use the laser cutter, bandsaws, lathes, mills, and router table when fabricating their hammer head and handle. When manufacturing the hard face of the hammer, students perform heat treatments and a Rockwell hardness test.\nI am extremely proud of the finished product. Every dimension of my hammer was in spec, and points were only deducted in the quality of manufacturing category for small scratches and dents.\nNow, I support current E4 students as a machine shop proctor. In this role, I teach students how to safely and effectively use shop machines and tools. In addition to mentoring E4 students, I also assist shop users working on both course-related and personal projects."
+  },
+  {
+    "objectID": "index.html#what-youll-find-here",
+    "href": "index.html#what-youll-find-here",
+    "title": "Emmy Lo",
+    "section": "What You’ll Find Here",
+    "text": "What You’ll Find Here\nThis portfolio highlights a selection of my academic, research, and design projects, including:\n\nAutonomous robotic systems\n\nMachine shop manufacturing\n\n3D printing & CAD\n\nMaterials research on compositionally-complex alloys\n\nExperimental instrumentation & data analysis\n\n\nView My Projects"
+  },
+  {
+    "objectID": "index.html#explore-my-work",
+    "href": "index.html#explore-my-work",
+    "title": "Emmy Lo",
+    "section": "Explore My Work",
+    "text": "Explore My Work\n\nView My Projects"
+  },
+  {
+    "objectID": "index.html#outside-the-classroom",
+    "href": "index.html#outside-the-classroom",
+    "title": "Emmy Lo",
+    "section": "🌿 Outside the Classroom",
+    "text": "🌿 Outside the Classroom\nWhen I’m not engineering, I enjoy:\n\nCooking & baking\n\nSewing\n\nPlaying sports\n\nFishing\n\nRunning"
+  },
+  {
+    "objectID": "index.html#lets-connect",
+    "href": "index.html#lets-connect",
+    "title": "Emmy Lo",
+    "section": "📬 Let’s Connect",
+    "text": "📬 Let’s Connect\n\nGitHub LinkedIn\n\n\nThanks for visiting my portfolio!"
+  },
+  {
+    "objectID": "index.html#contact-me",
+    "href": "index.html#contact-me",
+    "title": "Emmy Lo",
+    "section": "Contact Me",
+    "text": "Contact Me\n\nGitHub LinkedIn"
+  }
+]

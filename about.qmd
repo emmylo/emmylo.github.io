@@ -1,0 +1,17 @@
+---
+title: "About"
+---
+
+Hi! I’m Emmy, a junior engineering major at Harvey Mudd College in Claremont, California. I have broad interests across mechanical, materials, systems, and electrical engineering, and I’m especially motivated by projects that support sustainability and environmental impact. I’m interested in roles that combine hands-on testing, data-driven design, and sustainable engineering solutions.
+
+My strengths include experimental design, CAD and prototyping, circuit design, technical communication, and data-driven analysis. I enjoy working on interdisciplinary, hands-on engineering problems. While I’m still exploring my exact specialization, I’m currently seeking internship and research opportunities where I can contribute to meaningful, real-world engineering work.
+
+Outside of academics, I enjoy cooking, baking, sewing, playing sports, fishing, and running.
+
+Feel free to explore my projects or reach out if you’d like to connect!
+
+# Contact
+
+Email: emlo@hmc.edu
+
+LinkedIn: [https://www.linkedin.com/in/emmylo/][https://www.linkedin.com/in/emmylo/]
